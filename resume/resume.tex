@@ -1,0 +1,205 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\pagenumbering{gobble}
+
+\begin{document}
+
+%==================== HEADER ====================
+\begin{center}
+{\LARGE \textbf{Vishnu Kondaveeti}} \\[4pt]
+Software Engineer | AI Systems | Backend Development \\[4pt]
+\href{mailto:vishnuchowdary.kondaveeti@gmail.com}{vishnuchowdary.kondaveeti@gmail.com} ;|;
++91-94920-74736 ;|;
+\href{https://www.linkedin.com/in/vishnu-kondaveeti-7856502b4}{LinkedIn} ;|;
+\href{https://github.com/VishnuKondaveeti}{GitHub}
+\end{center}
+
+%==================== SUMMARY ====================
+\section*{Professional Summary}
+
+Software engineering student specializing in backend systems and AI-driven platforms.
+Experienced in building scalable APIs, automation workflows, and data-driven applications using Python and Java.
+Strong foundation in data analytics, machine learning, and distributed systems with hands-on experience in
+LLM orchestration, RAG pipelines, and analytics workflows. Passionate about designing scalable and intelligent
+software systems that generate actionable insights from data.
+
+%==================== SKILLS ====================
+\section*{Technical Skills}
+
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+
+\item \textbf{Programming Languages:}
+Python, Java, SQL
+
+\item \textbf{Data Analytics:}
+Python Data Analysis (Pandas, NumPy), Data Cleaning, Data Transformation,
+Exploratory Data Analysis (EDA), Statistical Analysis, Data Visualization
+
+\item \textbf{AI Systems:}
+Large Language Models (Google Gemini, Llama, DeepSeek-R1), Retrieval-Augmented Generation (RAG),
+LangChain, LangGraph, Multi-Agent Systems, Prompt Engineering, Embeddings,
+Semantic Search, Vector Databases (ChromaDB)
+
+\item \textbf{Backend Development:}
+FastAPI, REST APIs, Microservices Architecture, Async Programming,
+Webhooks, API Documentation (OpenAPI / Swagger)
+
+\item \textbf{Machine Learning:}
+Regression, Classification, Clustering, Feature Engineering,
+Model Evaluation, Cross Validation
+
+\item \textbf{Data Processing & ETL:}
+Pandas, NumPy, Data Cleaning, Data Transformation,
+ETL Pipelines, Exploratory Data Analysis
+
+\item \textbf{Cloud & DevOps:}
+Microsoft Azure, Docker, GitHub Actions, Containerization, CI/CD, Linux CLI
+
+\item \textbf{Core Computer Science:}
+Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks
+
+\item \textbf{Tools:}
+Git, Docker, Maven, Postman, Jupyter Notebook, n8n, VS Code
+
+\end{itemize}
+
+%==================== PROJECTS ====================
+\section*{Projects}
+
+\textbf{Agentic RAG Pipeline} \hfill \textit{Python, FastAPI, LangChain, ChromaDB, Ollama, DeepSeek-R1}
+
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+\item Developed a full-stack Agentic RAG system with a FastAPI backend and interactive Vanilla JS frontend for real-time document querying.
+\item Implemented complex routing logic to dynamically decide between context-aware retrieval and direct LLM generation using local DeepSeek-R1 models.
+\item Integrated sentence-transformers (all-MiniLM-L6-v2) for semantic document indexing and high-precision vector search in ChromaDB.
+\item Automated document ingestion pipelines for multi-page PDFs with recursive text splitting and asynchronous processing.
+\item Visualized agent "thinking" processes (routing decisions and source citations) in a responsive, low-latency web dashboard.
+\end{itemize}
+
+\textbf{Autonomous Multi-Agent AI Research Platform} \hfill \textit{Python, FastAPI, RAG, Google Gemini, n8n}
+
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+\item Architected an end-to-end research platform integrating Google Gemini with RAG pipelines for automated literature analysis.
+\item Built an n8n-driven automation workflow triggered via FastAPI webhooks to orchestrate paper collection, processing, and reporting.
+\item Developed specialized agents (Research, Retrieval, Analysis, Advisor) using the Orchestrator pattern for complex task management.
+\item Implemented document ingestion pipelines with ChromaDB vector store indexing research documents for semantic retrieval.
+\item Developed analytics pipelines to identify research trends and generate insights from collected datasets.
+\item Designed modular architecture separating ingestion, retrieval, analysis, and orchestration layers.
+\end{itemize}
+
+\textbf{Lead Generation Automation System} \hfill \textit{n8n, Webhooks, Google Sheets API, SMTP}
+
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+\item Developed an automated lead capture and management workflow using n8n.
+\item Implemented webhook-based triggers to collect leads from web forms.
+\item Automated storage of lead data into Google Sheets for centralized tracking.
+\item Configured email notifications to alert sales teams in real-time for incoming leads.
+\item Performed data analysis on captured leads to identify patterns and generate campaign insights.
+\end{itemize}
+
+\textbf{Multi-Agent System Using LangGraph} \hfill \textit{Python, LangGraph, LangChain}
+
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+\item Developed a graph-based multi-agent workflow with shared state and structured task orchestration.
+\item Implemented specialized Researcher and Writer agents for automated content generation.
+\item Designed scalable agent communication workflows.
+\end{itemize}
+
+\textbf{Real-Time Object Detection System} \hfill \textit{Python, YOLO, OpenCV}
+
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+\item Built a real-time object detection pipeline for live video streams.
+\item Processed and analyzed image datasets for training and evaluation.
+\item Applied preprocessing and augmentation techniques to improve model performance.
+\item Optimized inference pipeline to enable low-latency real-time predictions.
+\end{itemize}
+
+\textbf{Book My Game – Slot Booking Platform} \hfill \textit{Java, Spring MVC, MySQL}
+
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+\item Designed a backend system for court slot booking using Java and Spring MVC.
+\item Implemented concurrency-safe booking logic preventing double booking.
+\item Designed relational database schema and optimized queries using MySQL.
+\item Built modular service-layer architecture ensuring maintainability and scalability.
+\end{itemize}
+
+%==================== ACHIEVEMENTS ====================
+\section*{Achievements}
+
+\textbf{AI Research Automation Hackathon} \hfill \textit{2025}
+
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+\item Qualified for Round 2 using an Autonomous Multi-Agent AI Research Platform.
+\item Built an AI platform capable of automated literature retrieval, analysis, and summarization.
+\item Demonstrated multi-agent orchestration and RAG-based knowledge retrieval workflows.
+\end{itemize}
+
+%==================== EXPERIENCE ====================
+\section*{Experience}
+
+\textbf{AI \& Cloud Virtual Intern | IBM SkillsBuild} \hfill \textit{Sept 2025 -- Oct 2025}
+
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+\item Worked on machine learning pipelines including data preprocessing, model training, and evaluation.
+\item Explored cloud-based AI workflows and scalable model deployment.
+\end{itemize}
+
+\textbf{AI \& Data Analytics Virtual Intern | Shell} \hfill \textit{Oct 2025 -- Nov 2025}
+
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+\item Conducted exploratory data analysis to identify trends and insights in datasets.
+\item Cleaned and transformed raw data using Python to prepare it for machine learning models.
+\item Evaluated model performance using statistical metrics and validation techniques.
+\end{itemize}
+
+%==================== EDUCATION ====================
+\section*{Education}
+
+\textbf{Vellore Institute of Technology (VIT-AP)}, India \hfill \textit{2022 -- 2027}
+
+Integrated M.Tech in Computer Science \& Engineering — \textbf{CGPA: 8.91 / 10.0}
+
+\textbf{Relevant Coursework:} Data Structures, Algorithms, Operating Systems, DBMS, Computer Networks, Machine Learning
+
+\vspace{4pt}
+
+\textbf{Narayana Junior College}, Hyderabad \hfill \textit{2020 -- 2022}
+
+Intermediate (MPC) — Score: 98\%
+
+\vspace{4pt}
+
+\textbf{St. Ann’s High School}, Bhadrachalam \hfill \textit{2020}
+
+ICSE — Score: 86\%
+
+%==================== CERTIFICATIONS ====================
+\section*{Certifications}
+
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+
+\item \textbf{IBM SkillsBuild}
+\begin{itemize}
+\item Introduction to Artificial Intelligence
+\item Introduction to Generative AI
+\item Machine Learning
+\item Deep Learning
+\end{itemize}
+
+\item \textbf{Additional Certifications}
+\begin{itemize}
+\item Natural Language Processing (NLP)
+\item Computer Vision
+\item AI \& Cloud Virtual Internship – IBM SkillsBuild
+\item AI \& Data Analytics Virtual Internship – Shell
+\item Oracle Cloud Infrastructure DevOps Professional – Oracle
+\end{itemize}
+
+\end{itemize}
+
+\end{document}
