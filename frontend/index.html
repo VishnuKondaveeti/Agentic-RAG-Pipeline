@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic RAG Pipeline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agentic RAG Pipeline</h1>
+            <p>Intelligent document retrieval with routing logic.</p>
+        </header>
+
+        <section class="upload-section">
+            <h2>Upload Documents</h2>
+            <div class="upload-box">
+                <input type="file" id="fileInput" accept=".pdf">
+                <button id="uploadBtn">Upload & Ingest</button>
+            </div>
+            <div id="uploadStatus"></div>
+        </section>
+
+        <section class="query-section">
+            <h2>Query the Agent</h2>
+            <div class="query-box">
+                <input type="text" id="queryInput" placeholder="Ask a question about your documents...">
+                <button id="queryBtn">Ask Agent</button>
+            </div>
+        </section>
+
+        <section class="response-section">
+            <div id="loading" class="hidden">Thinking...</div>
+            <div id="responseContainer" class="hidden">
+                <div class="route-tag" id="routeDisplay"></div>
+                <div class="answer-box">
+                    <h3>Response:</h3>
+                    <p id="answerText"></p>
+                </div>
+                <div class="sources-box" id="sourcesBox">
+                    <h3>Sources:</h3>
+                    <ul id="sourcesList"></ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

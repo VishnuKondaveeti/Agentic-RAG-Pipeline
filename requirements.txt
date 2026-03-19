@@ -1,0 +1,13 @@
+python-multipart
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-huggingface
+chromadb
+sentence-transformers
+huggingface_hub
+langchain-ollama
+pydantic
+PyPDF2
+python-dotenv
